@@ -1,7 +1,8 @@
-gh = char(input(" "));
-if char=='a' or char=='e' or char=='i' or char=='o' or char=='u':
+
+ch = char(input(" "));
+if (ch =='a' or ch =='e' or ch =='i' or ch =='o' or ch =='u'):
   print("Vowel");
- elif char=='b' or char=='c' or char=='d' or char=='f' or char=='g' or char=='h' or char=='j' or char=='k' or char=='l' or char=='m' or char=='n' or char=='p' or char=='q' or char=='r' or char=='s' or char=='t' or char=='v' or char=='w' or char=='x'char=='w' or char=='x' or char=='y'or char=='z':
+elif (ch =='b' or ch =='c' or ch =='d' or ch =='f' or ch =='g' or ch =='h' or ch =='j' or ch =='k' or ch =='l' or ch =='m' or ch =='n' or ch=='p' or ch =='q' or ch =='r' or ch =='s' or ch =='t' or ch =='v' or ch =='w' or ch =='x' or ch=='y'or ch =='z'):
   print("Consonant");
- else:
+else :
   print("invalid")
