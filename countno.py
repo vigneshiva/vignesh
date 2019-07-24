@@ -1,3 +1,3 @@
-a = 106;
+a = int(input(" "));
 
 print(" ",len(str(abs(a))));
