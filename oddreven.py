@@ -2,8 +2,8 @@ a = float(input(" "));
 b= a % 2;
 
 if b != 0 and a > 0:
-    print("odd");
+    print("Odd");
 elif b == 0:
-  print("even");
+  print("Even");
 else :
   print("invalid")
