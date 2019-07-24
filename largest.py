@@ -1,6 +1,6 @@
-a = input(" ");
-b = input(" ");
-c = input(" ");
+a = int(input(" "));
+b = int(input(" "));
+c = int(input(" "));
 if a > b and a > c :
   print(" ",a);
 if b > a and b > c :
