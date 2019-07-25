@@ -1,8 +1,8 @@
 
   
   
-  a = int(input(" "));
-  b = int(input(" "));
+  a = input(" "));
+  b = input(" "));
   s = 0;
   for i in range(int(a)):
     n = input(" ");
