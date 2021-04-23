@@ -1,0 +1,9 @@
+def convert(time):
+    global h,m,s 
+    h = time // 3600
+    m = (time % 3600) // 60
+    s = time % 60
+    return (h,m,s)
+a = int(input(""))
+convert(a)
+print (h,":",m, ":" ,s)
